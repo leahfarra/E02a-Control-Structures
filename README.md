@@ -14,36 +14,67 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 Edit README.md to answer the following questions:
 
 - Open main01.py. Before running it, what do you expect this program to do?
+I do not know what this file will do.
   - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
+  I answered the question asking what my favorite color is by typing in the answer "blue" in the terminal file. It returned the answer "Leahs-MacBook-Pro-2:E02a-Control-Structures leahfarra$" - I'm not sure what this means.
   - What do you think the program did with what you typed in answer to the question?
+  I think it might have stored the information about my favorite color and associated it with the name of my computer and where the file is located.
 - Open main02.py. Before running it, describe how this is different than main01.py.
+This is different because the code instructs the file to print the response.
   - What do you think the color = input() will do?
+  I think ti will return the answer to my favorite color, and print "blue".
   - Run the program in the terminal and answer the question. Did the program do what you expected?
+  Yes.
 - Open main03.py. Before running it, describe how this is different than main02.py.
+This code has a boolean, and instructs the code to answer true if the color is red, and false if it is anything else.
   - What is happening on lines 9–12?
+  This code has a boolean, and instructs the code to answer true if the color is red, and false if it is anything else.
   - Why are lines 10 and 12 indented?
+  Because they are sub-rules under "if" and "else"
   - Run the program and answer the question. What happens if you don’t capitalize Red?
+  It reads it as false/incorrect.
   - What does this tell you about "color"?
+  It is a case sensitive string
 - Open main04.py. Before running it, describe how this is different than main03.py.
+It accepts "red" or "Red"
   - What problem is this trying to solve?
+  The fact that the correct response in main03.py was case senstive.
   - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+  It reads it as incorrect.
 - Open main05.py. What do you expect line 9 to do?
+I'm not entirely sure, but perhaps solving the whole issue with the case sensitivity. 
   - What problem is it trying to solve?
+  Case sensitive. 
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
+  It reads it as incorrect.
  - Open main06.py. How is line 9 different than in main05.py?
+ it contains "strip"
    - What would you guess .strip() is doing?
+   Allowing answers with spaces in them to still be accepted as correct.
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+   It will view it as incorrect if there is a space in between the letters of "red", though I am not sure if anyone would actually type it that way
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
+ It will accept the answers of red or pink
    - What is happening on line 12?
+   allowing pink to be an answer
    - Run the program and answer the question.
+   It reads "pink" as close to the correct answer.
  - Open main08.py. What is the purpose of line 9?
+I don't know.
    - Why are lines 10–17 indented?
+   they are all criteria under the "while" function
    - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
+   It would feedback "indetation error" and not work.
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
+   Error occurs. 
  - Open main09.py. What is happening on line 13?
+ There is a "count" function +1
    - What is the purpose of “count”?
+   To count how many times/tries the user has taken until they reach the correct answer
    - What is happening on line 22?
+   line 22 is blank on my file.
    - Run the program.
+   It feedsback how many tries it took to get to red.
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
  - *Extra credit:* open main11.py. What is happening on lines 6-11?
   
